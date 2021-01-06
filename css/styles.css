@@ -1,0 +1,176 @@
+h1, h2, h3, h4, h5 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #c70039;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: black !important;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a:hover {
+  color: #c70039 !important;
+}
+
+.card {
+  border: 0px;
+}
+
+/* Navigation */
+.header-transparent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.main-header {
+  position: relative;
+  z-index: 3;
+}
+
+.header-area .header-bottom {
+  padding: 0px 15px;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-lg-2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.col-lg-10 {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+.main-header .main-menu ul li {
+  margin: 0 8px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.menu-wrapper {
+  margin-top: 3%;
+}
+
+li {
+  list-style: none;
+}
+
+/* title */
+.intro {
+  margin-bottom: 5%;
+  padding: 3% 7%;
+}
+
+.title-img {
+  height: 400px;
+  width: 60%;
+}
+
+.about_us_section {
+  justify-content: center;
+}
+
+/* about us */
+#about_us {
+  margin-bottom: 50px;
+}
+
+.about_section {
+  position: absolute;
+  float: left;
+  left: 100px;
+}
+
+.about_section2 {
+  position: absolute;
+  left: 130px;
+}
+
+.about_section3 {
+  position: absolute;
+  float: left;
+  left: 100px;
+  margin-top: 30px;
+}
+
+.about_section4 {
+  left: 130px;
+  margin-top: 30px;
+}
+
+/* contact us */
+#contact_us {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 3% 7%;
+}
+
+.contact-us-img {
+  width: 100%;
+  height: 400px;
+}
+
+/* showcase */
+.showcase {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0% 0%;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+footer {
+  padding: 3% 7%;
+  background-color: #eeeeee;
+  text-align: center;
+}
