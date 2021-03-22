@@ -1,3 +1,10 @@
+@media screen and (max-width: 1200px) {
+  .about_us_section {
+    position: absolute;
+    right: 6%;
+    }
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'Ubuntu', sans-serif;
   color: #c70039;
@@ -85,13 +92,14 @@ li {
   width: 60%;
 }
 
-.about_us_section {
-  justify-content: center;
-}
-
 /* about us */
 #about_us {
-  margin-bottom: 50px;
+  justify-content: center;
+  display: flex;
+}
+
+.about_us_section {
+  position: relative;
 }
 
 .about_section {
@@ -153,20 +161,6 @@ li {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-}
-
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
 }
 
 footer {
